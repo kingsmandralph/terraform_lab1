@@ -2,7 +2,7 @@
 ### main.tf ###
 
 provider "aws" {
-  region = var.aws_region
+  region = var.region
 }
 resource "aws_security_group" "cba_tf_sg" {
  name        = "cba_tf_sg"
